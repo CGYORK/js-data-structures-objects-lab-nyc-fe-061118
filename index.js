@@ -1,6 +1,7 @@
 // Write your solution in this file!
 let driver = {name: "Program"};
-function updateDriverWithKeyAndValue(obj, key, value) {
+function updateDriverWithKeyAndValue(driver, key, value) {
   let newDriver = {...driver};
-  
+  newDriver[key] = value;
+  return newDriver;
 }
