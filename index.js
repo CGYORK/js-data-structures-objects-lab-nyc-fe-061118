@@ -1,3 +1,2 @@
 // Write your solution in this file!
-let driver = {name: Program
-};
+let driver = {name: "Program"};
